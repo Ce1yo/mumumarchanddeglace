@@ -1,0 +1,38 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Dossiers de dépendances
+node_modules/
+
+# Fichiers de configuration locaux
+.env
+.env.local
+
+# Fichiers de build
+dist/
+build/
+
+# Fichiers de logs
+logs
+*.log
+npm-debug.log*
+
+# Fichiers d'IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Fichiers de sauvegarde
+*~
+*.bak
+*.backup
+
+# Fichiers temporaires
+.tmp/
+.temp/
+
+# Fichiers volumineux (à gérer avec Git LFS si nécessaire)
+# Elements/flyers/*.png
+# Elements/pexels-*.jpg
