@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Produits - Mumu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Mumu</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="products.html" class="active">Nos Produits</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="products-page">
+        <h1>Nos Machines à Glaces</h1>
+        
+        <div class="products-container">
+            <aside class="categories">
+                <h2>Catégories</h2>
+                <ul>
+                    <li class="active" data-category="all">Tous les produits</li>
+                    <li data-category="machines">Machines à glaces</li>
+                    <li data-category="pieces">Pièces détachées</li>
+                </ul>
+            </aside>
+
+            <div class="products-grid">
+                <!-- Machine à Glace Italienne -->
+                <div class="product-card featured" data-category="machines">
+                    <div class="product-image">
+                        <span class="discount">-15%</span>
+                        <div class="image-slider">
+                            <img src="Elements/Machines glaces italiennes/machineitalienne1.jpg" alt="Machine à glace italienne - Vue 1" class="active">
+                            <img src="Elements/Machines glaces italiennes/machineitalienne2.jpeg" alt="Machine à glace italienne - Vue 2">
+                            <img src="Elements/Machines glaces italiennes/machineitalienne3.JPG" alt="Machine à glace italienne - Vue 3">
+                            <button class="slider-nav prev">❮</button>
+                            <button class="slider-nav next">❯</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Machine à Glace Italienne Professionnelle</h3>
+                        <p class="description">Machine professionnelle pour une production de glace italienne onctueuse et savoureuse. Idéale pour les glaciers et professionnels de la restauration.</p>
+                        <div class="price">
+                            <span class="current-price">2 499€</span>
+                            <span class="old-price">2 999€</span>
+                        </div>
+                        <button class="add-to-cart">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <!-- Machine 2 -->
+                <div class="product-card" data-category="machines">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200?text=Machine+2" alt="Machine à glace compacte">
+                    </div>
+                    <div class="product-info">
+                        <h3>Mini Glace 200</h3>
+                        <p class="description">Idéale pour les petits espaces et les débutants</p>
+                        <div class="price">
+                            <span class="current-price">1 199€</span>
+                        </div>
+                        <button class="add-to-cart">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <!-- Pièces détachées -->
+                <div class="product-card" data-category="pieces">
+                    <div class="product-image">
+                        <img src="Elements/Pieces detaché machine a glaces italiennes/batteur+200w.JPG" alt="Batteur 200W">
+                    </div>
+                    <div class="product-info">
+                        <h3>Batteur 200W</h3>
+                        <p class="description">Batteur de rechange 200W pour machine à glace italienne</p>
+                        <div class="price">
+                            <span class="current-price">89,90€</span>
+                        </div>
+                        <button class="add-to-cart">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="pieces">
+                    <div class="product-image">
+                        <img src="Elements/Pieces detaché machine a glaces italiennes/batteur1600-2000.jpeg" alt="Batteur 1600-2000">
+                    </div>
+                    <div class="product-info">
+                        <h3>Batteur 1600-2000</h3>
+                        <p class="description">Batteur haute performance pour modèles 1600 à 2000</p>
+                        <div class="price">
+                            <span class="current-price">129,90€</span>
+                        </div>
+                        <button class="add-to-cart">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="pieces">
+                    <div class="product-image">
+                        <img src="Elements/Pieces detaché machine a glaces italiennes/boutondedurete2fils.JPG" alt="Bouton de dureté">
+                    </div>
+                    <div class="product-info">
+                        <h3>Bouton de dureté 2 fils</h3>
+                        <p class="description">Bouton de réglage de dureté avec câblage</p>
+                        <div class="price">
+                            <span class="current-price">34,90€</span>
+                        </div>
+                        <button class="add-to-cart">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="pieces">
+                    <div class="product-image">
+                        <img src="Elements/Pieces detaché machine a glaces italiennes/boutononoff.jpeg" alt="Bouton ON/OFF">
+                    </div>
+                    <div class="product-info">
+                        <h3>Interrupteur ON/OFF</h3>
+                        <p class="description">Interrupteur de mise en marche/arrêt de remplacement</p>
+                        <div class="price">
+                            <span class="current-price">24,90€</span>
+                        </div>
+                        <button class="add-to-cart">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="pieces">
+                    <div class="product-image">
+                        <img src="Elements/Pieces detaché machine a glaces italiennes/grandevisserrage.jpeg" alt="Grande vis de serrage">
+                    </div>
+                    <div class="product-info">
+                        <h3>Grande vis de serrage</h3>
+                        <p class="description">Vis de serrage pour fixation des composants principaux</p>
+                        <div class="price">
+                            <span class="current-price">19,90€</span>
+                        </div>
+                        <button class="add-to-cart">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="pieces">
+                    <div class="product-image">
+                        <img src="Elements/Pieces detaché machine a glaces italiennes/jointarriere.jpeg" alt="Joint arrière">
+                    </div>
+                    <div class="product-info">
+                        <h3>Joint arrière</h3>
+                        <p class="description">Joint d'étanchéité pour partie arrière de machine</p>
+                        <div class="price">
+                            <span class="current-price">14,90€</span>
+                        </div>
+                        <button class="add-to-cart">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="pieces">
+                    <div class="product-image">
+                        <img src="Elements/Pieces detaché machine a glaces italiennes/jointdouble.JPG" alt="Joint double">
+                    </div>
+                    <div class="product-info">
+                        <h3>Joint double épaisseur</h3>
+                        <p class="description">Joint renforcé pour une meilleure étanchéité</p>
+                        <div class="price">
+                            <span class="current-price">22,90€</span>
+                        </div>
+                        <button class="add-to-cart">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="pieces">
+                    <div class="product-image">
+                        <img src="Elements/Pieces detaché machine a glaces italiennes/manetteinox.JPG" alt="Manette inox">
+                    </div>
+                    <div class="product-info">
+                        <h3>Manette inox</h3>
+                        <p class="description">Manette de commande en acier inoxydable</p>
+                        <div class="price">
+                            <span class="current-price">39,90€</span>
+                        </div>
+                        <button class="add-to-cart">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="pieces">
+                    <div class="product-image">
+                        <img src="Elements/Pieces detaché machine a glaces italiennes/petitevisserrage.jpeg" alt="Petite vis de serrage">
+                    </div>
+                    <div class="product-info">
+                        <h3>Petite vis de serrage</h3>
+                        <p class="description">Vis de précision pour ajustements fins</p>
+                        <div class="price">
+                            <span class="current-price">12,90€</span>
+                        </div>
+                        <button class="add-to-cart">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="pieces">
+                    <div class="product-image">
+                        <img src="Elements/Pieces detaché machine a glaces italiennes/ramassegoutte.jpeg" alt="Ramasse-gouttes">
+                    </div>
+                    <div class="product-info">
+                        <h3>Ramasse-gouttes</h3>
+                        <p class="description">Accessoire d'hygiène pour une propreté optimale</p>
+                        <div class="price">
+                            <span class="current-price">17,90€</span>
+                        </div>
+                        <button class="add-to-cart">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <!-- Machine 3 -->
+                <div class="product-card" data-category="machines">
+                    <div class="product-image">
+                        <span class="new">Nouveau</span>
+                        <img src="https://via.placeholder.com/300x200?text=Machine+3" alt="Machine à glace haut de gamme">
+                    </div>
+                    <div class="product-info">
+                        <h3>Elite Ice Master</h3>
+                        <p class="description">La référence des professionnels exigeants</p>
+                        <div class="price">
+                            <span class="current-price">3 799€</span>
+                        </div>
+                        <button class="add-to-cart">Ajouter au panier</button>
+                    </div>
+                </div>
+
+                <!-- Machine 4 -->
+                <div class="product-card" data-category="machines">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200?text=Machine+4" alt="Machine à glace soft">
+                    </div>
+                    <div class="product-info">
+                        <h3>Soft Ice Deluxe</h3>
+                        <p class="description">Spécialiste des glaces onctueuses</p>
+                        <div class="price">
+                            <span class="current-price">2 899€</span>
+                        </div>
+                        <button class="add-to-cart">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contactez-nous</h3>
+                <p><i class="fas fa-phone"></i> 01 23 45 67 89</p>
+                <p><i class="fas fa-envelope"></i> contact@glace-co.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Horaires</h3>
+                <p>Lundi - Vendredi: 9h - 18h</p>
+                <p>Samedi: 10h - 13h</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Glace & Co. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
